@@ -5,9 +5,10 @@
  * /
  * int main(void)
  {
- char num;
- for (num = '0'; num < = '9'; num++)
- putchar(num);
- putchar('\n');
+ int n;
+ for (n =| 0 ; n < 10; n++)
+ {
+ printif("%d\n");
+
  return (0);
  }

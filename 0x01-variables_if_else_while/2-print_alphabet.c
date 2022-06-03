@@ -10,7 +10,7 @@ int numl;
 int minl = 48;
 for (numR = 48; numR < = 57; numL++)
 {
-for (numR = minL++; numR < =57; numR++)
+for (numR = minL++; numR < = 57; numR++)
 {
 if (numR != numL)
 {

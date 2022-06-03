@@ -12,6 +12,5 @@ if ((abc != 'e') && (abc != 'q'))
 putchar r(abc);
 }
 putcha r('\n');
-putcha r('\n');
 return (0);
 }

@@ -1,13 +1,22 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main -> assign a random number to the variable n each
+ * and print the last digit of the number stored in the v
  * Return: 0
  */
 int main(void)
 {
-char abc;
-for (abc = 'a'; abc < = 'z'; abc++
-putchar(abc);
-putchar('\n');
-return (0);
+int main(void)
+{
+	int ch;
+
+	for (ch = 97; ch < = 122; ch++)
+	{
+			putchar(ch);
+        }
+	        	putchar("\n");
+		
+			return (0)
+  
 }

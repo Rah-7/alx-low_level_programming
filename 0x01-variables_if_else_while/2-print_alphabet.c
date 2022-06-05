@@ -14,5 +14,5 @@ int main(void)
 		putchar (ch)
 	}
 	putcha('\n');
-return (0)
+return (0);
 }

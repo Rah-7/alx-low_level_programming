@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * main -> assign a random number to the variable n each
- * and print the last digit of the number stored in the v
- * Return: 0
+ * main -> Entry point
+ * Description:prints the alphabet in lower case\n
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -11,12 +11,10 @@ int main(void)
 {
 	int ch;
 
-	for (ch = 97; ch < = 122; ch++)
+	for (ch = 'a'; ch < = 'z'; ch++)
 	{
 			putchar(ch);
         }
-	        	putchar("\n");
-		
-			return (0)
-  
+	        	putchar (ch);
+return (0);
 }

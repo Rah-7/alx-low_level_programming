@@ -1,14 +1,21 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: 0
- * /
- * int main(void)
- {
- int n;
- for (n =| 0 ; n < 10; n++)
- {
- printif("%d\n");
+ * Return: 0.
+ */
 
- return (0);
- }
+int main(void)
+
+{
+
+	char num;
+
+	for (num = '0'; num <= '9'; num++)
+
+		putchar(num);
+
+	putchar('\n');
+
+	return (0);
+
+}

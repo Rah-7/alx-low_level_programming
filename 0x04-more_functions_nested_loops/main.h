@@ -1,1 +1,1 @@
-void print_numbers(void);
+int _isupper(int c);

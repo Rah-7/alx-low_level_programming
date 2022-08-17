@@ -1,60 +1,51 @@
-#include "3-calc.h"
-
+#include "function_pointers.h"
 /**
- * op_add - Returns the sum of two number
- * @a:the first number
- * @b:the second number
- * Return:The sum of a and b
+ * op_add - add a with b
+ * @a: int
+ * @b: int
+ * Return: void
  */
-
 int op_add(int a, int b)
 {
 	return (a + b);
 }
-
 /**
- * op_sub - Returns the substraction of two numbers
- * @a:the first number
- * @b:the second number
- * Return: The Difference of a and b
+ * op_sub - substract a with b
+ * @a: int
+ * @b: int
+ * Return: void
  */
-
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
-
 /**
- * op_mul - Returns the multiplication of two numbers
- * @a:the first number
- * @b:the second number
- * Return: The multiplication of a and b
+ * op_mul - multiplies a with b
+ * @a: int
+ * @b: int
+ * Return: void
  */
-
-int op_sub(int a, int b)
+int op_mul(int a, int b)
 {
 	return (a * b);
 }
 /**
- * op_div - Returns the division of two numbers.
- * @a:the first number
- * @b:the second number
- * Return: The quotient of a and b.
+ * op_div - divide a with b
+ * @a: int
+ * @b: int
+ * Return: void
  */
 int op_div(int a, int b)
 {
 	return (a / b);
 }
-
 /**
- * op_mod - Returns the remainder of the division of two numbers.
- * @a: The first number
- * @b:the second number
- * Return: The remainder of the division of a by b.
+ * op_mod - a module b
+ * @a: int
+ * @b: int
+ * Return: void
  */
-
 int op_mod(int a, int b)
 {
 	return (a % b);
 }
-

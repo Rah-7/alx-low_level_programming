@@ -3,9 +3,9 @@
 /**
  * _atoi - converts a string to an integer
  *
- * @s: the string
+ *  @s: the string
  *
- * Return: int
+ *  Return: int
  */
 int _atoi(char *s)
 {
@@ -28,4 +28,13 @@ int _atoi(char *s)
 		}
 		len++;
 	}
+
+
+	for (i = len - size; i < len; i++)
+	{
+		res += ((*(s + i) - '0') * p);
+		p /= 10;
+	}
+
+	return (sign * res);
 }

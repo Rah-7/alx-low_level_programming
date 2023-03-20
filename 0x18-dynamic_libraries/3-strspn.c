@@ -5,7 +5,7 @@
  *
  * @s: initial segment
  * @accept: bytes to check
- *  Return: unsigned int
+ * Return: unsigned int
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -31,3 +31,4 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (cont);
 }
+
